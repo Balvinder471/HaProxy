@@ -1,0 +1,4 @@
+---
+# vars file for myloadbalancer
+pno : 8080
+fpno : 80

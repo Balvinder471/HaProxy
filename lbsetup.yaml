@@ -1,0 +1,10 @@
+- name : "Configuring Webservers"
+  hosts : web
+  roles : 
+    - myapache
+
+
+- name : "Configuring LoadBalancer"
+  hosts : lb
+  roles :
+    - myloadbalancer
